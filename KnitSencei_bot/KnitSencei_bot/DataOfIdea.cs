@@ -17,7 +17,7 @@ namespace KnitSencei_bot
 
         public void Piece_idea(string line)
         {
-            string[] parts = line.Split(',');  //Разделитель в CVS файле.
+            string[] parts = line.Split(';');  //Разделитель в CVS файле.
             ID = parts[0];
             Product = parts[1];
             Name = parts[2];
