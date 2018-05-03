@@ -56,6 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalculationData.cs" />
+    <Compile Include="DataOfProduct.cs" />
+    <Compile Include="FillIProduct.cs" />
+    <Compile Include="Keyboard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -12,3 +12,11 @@ D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\ApiAiSDK.dll
 C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\bin\Debug\KnitSencei_bot.exe.config
 C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.exe
 C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.pdb
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\bin\Debug\KnitSencei_bot.exe
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\bin\Debug\KnitSencei_bot.pdb
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\bin\Debug\ApiAiSDK.dll
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\bin\Debug\Telegram.Bot.dll
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\bin\Debug\Telegram.Bot.xml
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.csprojResolveAssemblyReference.cache
