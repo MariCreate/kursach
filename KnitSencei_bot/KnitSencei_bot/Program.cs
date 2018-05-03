@@ -62,11 +62,11 @@ namespace KnitSencei_bot
             await Bot.AnswerCallbackQueryAsync(e.CallbackQuery.Id, $"Ты нажал(а) кнопку {buttonText}");
         }
 
-        private static void Bot_OnMessageReceived(object sender, Telegram.Bot.Args.MessageEventArgs e)
+        private async static void Bot_OnMessageReceived(object sender, MessageEventArgs e)
         {
             var message = e.Message;
             if (message == null || message.Type != MessageType.TextMessage)
-                Bot.SendTextMessageAsync(e.Message.Chat.Id, "Извини, но я могу воспринимать только текст");
+                await Bot.SendTextMessageAsync(e.Message.Chat.Id, "Извини, но я могу воспринимать только текст");
             string name = $"{message.From.FirstName}{message.From.LastName}";
             Console.WriteLine($"{name} отправил(a) сообщение '{message.Text}'  ");
             switch (message.Text)
@@ -78,11 +78,11 @@ namespace KnitSencei_bot
                 case "/ideas": keyboard.Idea(Bot, e); break;
                 case "/calculator": keyboard.Calculator(Bot, e); break;
                 default:
-                    /*var response = apiAi.TextRequest(message.Text);
+                    var response = apiAi.TextRequest(message.Text);
                     string answer = response.Result.Fulfillment.Speech;
                     if (answer == "")
                         answer = "Прости, я не понимаю тебя";
-                    await Bot.SendTextMessageAsync(message.From.Id, answer);*/
+                    await Bot.SendTextMessageAsync(e.Message.From.Id, answer);
                     break;
             }
         }

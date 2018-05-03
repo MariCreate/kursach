@@ -27,5 +27,10 @@ namespace KnitSencei_bot
                 }
             }
         }
+
+        public void Read_csv ()
+        {
+            
+        }
     }
 }

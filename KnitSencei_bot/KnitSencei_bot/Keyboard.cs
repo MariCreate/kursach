@@ -74,12 +74,14 @@ namespace KnitSencei_bot
 
         public async void Idea(TelegramBotClient Bot, MessageEventArgs e)
         {
-            var inlineKeyboard3 = new InlineKeyboardMarkup
+            // await Bot.SendTextMessageAsync(e.Message.From.Id);
+
+            /*var inlineKeyboard3 = new InlineKeyboardMarkup
                   (new[] {
                             InlineKeyboardButton.WithCallbackData("Платья"),
                             InlineKeyboardButton.WithCallbackData("Свитера")
                          });
-            await Bot.SendTextMessageAsync(e.Message.From.Id, "Выбери, какие идеи тебя интересуют", replyMarkup: inlineKeyboard3);
+            await Bot.SendTextMessageAsync(e.Message.From.Id, "Выбери, какие идеи тебя интересуют", replyMarkup: inlineKeyboard3);*/
         }
 
         public async void Calculator(TelegramBotClient Bot, MessageEventArgs e)
