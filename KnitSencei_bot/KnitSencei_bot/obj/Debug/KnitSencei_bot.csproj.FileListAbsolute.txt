@@ -1,0 +1,11 @@
+D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\KnitSencei_bot.exe.config
+D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\KnitSencei_bot.exe
+D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\KnitSencei_bot.pdb
+D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\Newtonsoft.Json.dll
+D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\Telegram.Bot.dll
+D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\Newtonsoft.Json.xml
+D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\Telegram.Bot.xml
+D:\курсач\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.csprojResolveAssemblyReference.cache
+D:\курсач\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.exe
+D:\курсач\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.pdb
+D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\ApiAiSDK.dll
