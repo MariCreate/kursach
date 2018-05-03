@@ -9,3 +9,6 @@ D:\курсач\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.csprojRes
 D:\курсач\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.exe
 D:\курсач\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.pdb
 D:\курсач\KnitSencei_bot\KnitSencei_bot\bin\Debug\ApiAiSDK.dll
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\bin\Debug\KnitSencei_bot.exe.config
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.exe
+C:\Users\Мариночка\Desktop\GitHub\kursach\KnitSencei_bot\KnitSencei_bot\obj\Debug\KnitSencei_bot.pdb

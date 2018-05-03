@@ -59,7 +59,6 @@ namespace KnitSencei_bot
 
             else if (buttonText == "Указать данные")
             {
-
                 await Bot.SendTextMessageAsync(e.CallbackQuery.From.Id, "Укажи вид изделия, размер и данные о пряже");
             }
 
@@ -71,13 +70,8 @@ namespace KnitSencei_bot
 
                 await Bot.SendTextMessageAsync(e.CallbackQuery.From.Id, "Результат расчета - ");
             }
-
-
-
             await Bot.AnswerCallbackQueryAsync(e.CallbackQuery.Id, $"Ты нажал(а) кнопку {buttonText}");
         }
-
-
 
         private static async void Bot_OnMessageReceived(object sender, Telegram.Bot.Args.MessageEventArgs e)
         {
@@ -168,7 +162,6 @@ namespace KnitSencei_bot
                         {
                             InlineKeyboardButton.WithCallbackData("Произвести расчет")
                         }
-
                     });
                 
                     await Bot.SendTextMessageAsync(message.From.Id, "Выбери, что ты хочешь сделать", replyMarkup: inlineKeyboard4);
