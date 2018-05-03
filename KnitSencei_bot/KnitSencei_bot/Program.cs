@@ -69,7 +69,7 @@ namespace KnitSencei_bot
                 CalculationData cd = new CalculationData();
                 cd.datas("майка", "43", "67", "0");
 
-                await Bot.SendTextMessageAsync(e.CallbackQuery.From.Id, "Результат расчета - " ,);
+                await Bot.SendTextMessageAsync(e.CallbackQuery.From.Id, "Результат расчета - ");
             }
 
 
