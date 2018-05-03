@@ -74,7 +74,10 @@ namespace KnitSencei_bot
 
         public async void Idea(TelegramBotClient Bot, MessageEventArgs e)
         {
-            // await Bot.SendTextMessageAsync(e.Message.From.Id);
+            List<DataOfIdea> csv = new List<DataOfIdea>();
+            csv = DataOfIdea.ReadFile("ideas.csv");
+
+            await Bot.SendTextMessageAsync(e.Message.From.Id, "Привет, если ты нажал сюда, то хотел бы что-нибудь связать. Напиши что?");
 
             /*var inlineKeyboard3 = new InlineKeyboardMarkup
                   (new[] {
